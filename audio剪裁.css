@@ -1,0 +1,387 @@
+.topdiv {
+	margin-top: 0px;
+	left: 0;
+	top: 0px;
+	position: absolute;
+	display: block;
+	height: 70px;
+	width: 100%;
+	background-color: #077575;
+}
+.imgdiv {
+	display: inline-block;
+	height: 100%;
+	width: 255px;
+	background-color: #077575;
+}
+.tagdiv1 {
+	display: inline-block;
+	height: 100%;
+	width: 130px;
+	background-color: #077575;
+}
+.tagdiv2 {
+	display: inline-block;
+	height: 100%;
+	width: 130px;
+	background-color: #077575;
+}
+
+#wave {
+	display: block;
+	width: 1800px;
+	height: 200px;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 10px;
+	margin-bottom: 0px;
+	margin-top: 40px;
+}
+#wave:hover {
+	box-shadow: 0px 0px 20px 2px black;
+}
+.dadiv {
+	margin-left: 0px;
+	margin-right: 0px;
+	top: 110px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	height: 450px;
+	background-color: #00aeae;
+	border-radius: 5px;
+}
+body {
+	background-color: #bbffff;
+}
+#file1 {
+	position: absolute;
+	left: 30px;
+	top: 30px;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	border: 0;
+}
+.lebelforuploadbtn {
+	left: 10px;
+	top: 10px;
+	position: absolute;
+	border-radius: 10px;
+	background-color: #077575;
+	border: none;
+	color: white;
+	padding: 15px 50px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+.lebelforuploadbtn:hover {
+	box-shadow: 0px 0px 20px 5px black;
+	border-color: #066565;
+	border-width: 2px;
+	border-style: solid;
+}
+#timeline {
+	position: absolute;
+	top: 20px;
+	display: block;
+	width: 1200px;
+	height: 30px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: rgb(0, 0, 0, 0.2);
+	margin-bottom: 0px;
+}
+.middiv {
+	display: block;
+}
+.footdiv {
+	border-radius: 10px;
+	display: block;
+	height: 30px;
+	width: 1205px;
+	/* background-color: blue; */
+	position: relative;
+	top: 20px;
+}
+.playbtn {
+	position: absolute;
+	border-radius: 10px;
+	background-color: #077575;
+	border: none;
+	color: white;
+	padding: 15px 50px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	left: -20px;
+	bottom: -30px;
+}
+.playbtn:hover,
+#downloadbtn:hover {
+	box-shadow: 0px 0px 20px 2px black;
+}
+
+.downloadbtn {
+	position: absolute;
+	border-radius: 10px;
+	background-color: #077575;
+	border: none;
+	color: white;
+	padding: 15px 50px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	right: -620px;
+	bottom: -35px;
+}
+.timediv {
+	position: relative;
+	/* background-color: red; */
+	display: inline-block;
+	height: 30px;
+	width: 400px;
+	left: 650px;
+	top: 30px;
+}
+.timediv1 {
+	position: absolute;
+	display: inline-block;
+	background-color: rgb(255, 255, 255);
+	padding-top: 2px;
+	width: 115px;
+	height: 28px;
+	top: 0px;
+	bottom: -2px;
+	padding-bottom: 0px;
+	border-radius: 3px;
+}
+.timediv2 {
+	position: absolute;
+	/* position: relative; */
+	display: inline-block;
+	background-color: rgb(255, 255, 255);
+	width: 115px;
+	text-align: center;
+	height: 28px;
+	padding-top: 2px;
+	left: 300px;
+	bottom: 0px;
+	padding-bottom: 0px;
+	border-radius: 3px;
+}
+.timelabel1 {
+	position: relative;
+	padding: 0px;
+	display: inline-block;
+	font-size: 20px;
+}
+.timelabel2 {
+	position: relative;
+	padding: 0px;
+	display: inline-block;
+	font-size: 20px;
+	left: 120px;
+}
+.timeinputmin1 {
+	position: absolute;
+	margin-top: 0px;
+	height: 22px;
+	width: 30px;
+	left: 6px;
+	border-style: hidden;
+	font-size: 18px;
+	text-align: right;
+	bottom: 3px;
+}
+
+.maohow1 {
+	display: inline-block;
+	position: absolute;
+	left: 42px;
+	top: -19px;
+	font-size: 20px;
+}
+.timeinputsec1 {
+	position: absolute;
+	margin-top: 0px;
+	height: 22px;
+	width: 58px;
+	right: 3px;
+	border-style: hidden;
+	font-size: 18px;
+	bottom: 3px;
+}
+.timeinputmin2 {
+	position: absolute;
+	margin-top: 0px;
+	height: 22px;
+	width: 30px;
+	right: 75px;
+	border-style: hidden;
+	font-size: 18px;
+	text-align: right;
+	bottom: 3px;
+}
+.maohow2 {
+	display: inline-block;
+	position: absolute;
+	left: 42px;
+	top: -19px;
+	font-size: 20px;
+}
+.timeinputsec2 {
+	position: absolute;
+	border-style: hidden;
+	bottom: 3px;
+	height: 22px;
+	width: 58px;
+	font-size: 18px;
+	right: 3px;
+}
+.volume1 {
+	display: inline-block;
+	position: absolute;
+	left: 370px;
+	top: 32px;
+}
+
+#waveicon {
+	position: absolute;
+	width: 50px;
+	left: 10px;
+	top: 8px;
+}
+#audiofont {
+	position: absolute;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 40px;
+	font-weight: 600;
+	left: 65px;
+}
+#audiofont2 {
+	position: absolute;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 32px;
+	font-weight: 600;
+	left: 95px;
+	bottom: 0px;
+}
+#cuticon {
+	position: absolute;
+	width: 30px;
+	left: 265px;
+	top: 3px;
+}
+#cutfont {
+	position: absolute;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 25px;
+	font-weight: 600;
+	left: 285px;
+	bottom: 0px;
+}
+
+#concaticon {
+	position: absolute;
+	width: 27px;
+	left: 395px;
+	top: 5px;
+}
+
+#concatfont {
+	position: absolute;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 25px;
+	font-weight: 600;
+	left: 417px;
+	bottom: 0px;
+}
+
+a:visited,
+a:link {
+	color: black;
+}
+
+.imgdiv:hover,
+.tagdiv1:hover,
+.tagdiv2:hover {
+	background-color: #00aeae;
+}
+
+#waveicon {
+	position: absolute;
+	width: 50px;
+	left: 10px;
+	top: 8px;
+}
+#audiofont {
+	position: absolute;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 40px;
+	font-weight: 600;
+	left: 65px;
+}
+#audiofont2 {
+	position: absolute;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 32px;
+	font-weight: 600;
+	left: 95px;
+	bottom: 0px;
+}
+#cuticon {
+	position: absolute;
+	width: 30px;
+	left: 265px;
+	top: 3px;
+}
+#cutfont {
+	position: absolute;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 25px;
+	font-weight: 600;
+	left: 285px;
+	bottom: 0px;
+}
+
+#concaticon {
+	position: absolute;
+	width: 27px;
+	left: 395px;
+	top: 5px;
+}
+
+#concatfont {
+	position: absolute;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 25px;
+	font-weight: 600;
+	left: 417px;
+	bottom: 0px;
+}
+
+a:visited,
+a:link {
+	color: rgb(255, 255, 255);
+}
+
+.imgdiv:hover,
+.tagdiv1:hover,
+.tagdiv2:hover {
+	background-color: #00aeae;
+}
